@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Chris Bell | Engineering Leader and CTO for hire`,
+    description: `Chris Bell is a Brooklyn, NY based engineering leader and CTO for hire, specializing in Elixir.`,
+    author: `@cjbell_`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -21,10 +21,15 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        //icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-89643782-1",
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
