@@ -44,6 +44,7 @@ const NavigationItems = styled.ul`
 
 const NavigationItem = styled.li`
   margin-right: ${spacer(2)}px;
+  font-size: 15px;
 
   a {
     color: #828fff;
@@ -74,9 +75,9 @@ const SiteHeader = () => (
           <NavigationItem>
             <Link to="/about">About</Link>
           </NavigationItem>
-          {/* <NavigationItem>
-            <Link to="/blog">Blog</Link>
-          </NavigationItem> */}
+          <NavigationItem>
+            <Link to="/posts">Blog</Link>
+          </NavigationItem>
           <NavigationItem>
             <Link to="/work-with-me">Work with me</Link>
           </NavigationItem>
