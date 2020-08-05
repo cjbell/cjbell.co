@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Chris Bell – an Engineering Leader and CTO for hire`,
+    title: `Chris Bell – Engineering Leader and CTO for hire`,
     description: `Chris Bell is a Brooklyn, NY based Engineering Leader and CTO for hire, specializing in Elixir.`,
     author: `@cjbell_`,
   },
@@ -51,7 +51,7 @@ module.exports = {
         short_name: `starter`,
         start_url: `/`,
         display: `minimal-ui`,
-        //icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-styled-components`,
