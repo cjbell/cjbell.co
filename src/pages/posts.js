@@ -30,8 +30,11 @@ const Article = styled.article`
   }
 
   small {
+    width: 100px;
     font-size: 14px;
     color: #8a8f98;
+    text-align: right;
+    line-height: 1.3;
   }
 
   section {
@@ -52,7 +55,7 @@ export const query = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "MMM D, YYYY")
             title
             description
           }

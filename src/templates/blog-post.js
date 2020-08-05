@@ -15,7 +15,7 @@ const Wrapper = styled.div`
 const Article = styled.article``
 
 const Content = styled.section`
-  line-height: 1.4;
+  line-height: 1.45;
   color: #dadada;
 
   p,
@@ -33,6 +33,13 @@ const Content = styled.section`
       background-color: #1b1c1d;
       box-shadow: none;
     }
+  }
+
+  .language-text {
+    font-size: 14px;
+    border: none;
+    background-color: #1b1c1d;
+    box-shadow: none;
   }
 
   blockquote {
@@ -69,13 +76,23 @@ const Content = styled.section`
     font-size: 14px;
   }
 
+  strong {
+    font-weight: 600;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  li {
+    margin: 0 0 8px 20px;
+  }
+
   ul li {
-    margin-left: 20px;
     list-style-type: disc;
   }
 
   ol li {
-    margin-left: 20px;
     list-style-type: decimal;
   }
 
@@ -95,6 +112,7 @@ const ProfilePicWrapper = styled.div`
 
 const Header = styled.header`
   padding-bottom: 8px;
+  margin-bottom: 16px;
   border-bottom: 1px solid #1b1c1d;
 `
 
