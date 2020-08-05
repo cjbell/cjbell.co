@@ -3,6 +3,7 @@ module.exports = {
     title: `Chris Bell – Engineering Leader and CTO for hire`,
     description: `Chris Bell is a Brooklyn, NY based Engineering Leader and CTO for hire, specializing in Elixir.`,
     author: `@cjbell_`,
+    image: "https://cjbell.co/open-graph-image.png",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
