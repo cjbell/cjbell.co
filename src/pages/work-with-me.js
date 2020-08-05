@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { H1, H2, Strong, P } from "../components/typography"
+import { H1, H2, P } from "../components/typography"
 import Link from "../components/link"
 import { wrapper, spacer } from "../theme"
 
