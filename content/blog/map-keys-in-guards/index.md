@@ -1,7 +1,7 @@
 ---
 title: Checking for the existence of keys in a map in Elixir
 date: "2020-08-11T12:00:00.000Z"
-description: "A look into how we ramp our engineers on Elixir at Made by Many."
+description: "An exploration into using the is_map_key/2 guard."
 ---
 
 Today with a client we had an interesting question come up from one of the engineers: Given a map that may have string or atom based keys, how can we pattern match against the existence of the key in a function head?
